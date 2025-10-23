@@ -1,9 +1,0 @@
-h1{
-    font-family: myFirstFont;
-    text-align: center;
-    color: rgb(214, 44, 72);
-}
-@font-face {
-    font-family: myFirstFont;
-    src: url(./Melted\ Monster.ttf);
-}

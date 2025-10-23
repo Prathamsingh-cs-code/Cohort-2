@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section .top .bottom {
+  background-color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
