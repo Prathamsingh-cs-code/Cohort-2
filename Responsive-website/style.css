@@ -86,7 +86,7 @@ main section.view2 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
   padding: 1rem;
 }
 main section.view2 .top {
@@ -105,24 +105,41 @@ main section.view2 .bottom {
   justify-content: center;
   justify-content: space-around;
 }
+main section.view2 .element {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+main section.view2 .element small {
+  opacity: 0.6;
+}
+main section.view2 .element h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
 @media (min-width: 900px) {
-  main main section {
+  main main section .view1 {
     flex-direction: row;
     gap: 2rem;
   }
-  main main section .top, main main section .bottom {
+  main main section .view1 .top, main main section .view1 .bottom {
     width: 50%;
     padding: 2rem;
   }
-  main main section .bottom {
+  main main section .view1 .bottom {
     justify-content: space-between;
     padding: 3rem;
   }
-  main main section .bottom .text h1 {
+  main main section .view1 .bottom .text h1 {
     font-size: 3.5rem;
   }
-  main main section .bottom .text p {
+  main main section .view1 .bottom .text p {
     font-size: 1rem;
     width: 60%;
+  }
+  main main section .view2 {
+    flex-direction: row;
+    padding: 3rem, 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

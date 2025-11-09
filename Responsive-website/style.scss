@@ -85,7 +85,7 @@ h1{
 }
 section.view2{    
     width: 100%;
-   @include flex-column(2rem);
+   @include flex-column(2.5rem);
     padding: 1rem;
 .top{
     width: 100%;
@@ -103,11 +103,23 @@ section.view2{
     justify-content: center;
     justify-content:space-around;
 }
+.element{
+    text-align: center;
+    @include flex-column(0.2rem);
+    small{
+        opacity: 0.6;
+    }
+  h2{
+    font-size: 2rem;
+    font-weight: 300;
+  }
+    
+}
 
 }
 @media (min-width:900px) {
     main{
-        section{
+        section .view1 {
             flex-direction: row;    
             gap:2rem;
 
@@ -128,6 +140,13 @@ section.view2{
                     }
                 }
             }
+        }
+        section .view2 {
+            flex-direction: row;    
+           padding: 3rem , 4rem;
+
+            
+            
         }
     }
 }}
